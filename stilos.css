@@ -1,0 +1,44 @@
+body{
+    background-color: khaki;
+    font-family: 'Mali', cursive;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+
+header{
+    display: flex;
+    background-color: bisque;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600px;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: cornflowerblue;
+}
+
+@medias (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        paading: 10px 0px;
+    }
+}
